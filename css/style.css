@@ -342,6 +342,7 @@ margin-bottom: 50px;
     padding: 20px;
     text-align: center;
     
+    
 }
 .social-icon{
     display: flex;
@@ -352,10 +353,7 @@ margin-bottom: 50px;
 .social-icon a{
     margin: 0 10px;
 }
-.list li{
-display: inline-block;
-padding: 0 10px;
-}
+
 .fa-youtube{
     color: rgb(240, 16, 16);
     transition: .3s;
