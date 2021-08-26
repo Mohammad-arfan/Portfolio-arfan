@@ -337,7 +337,44 @@ margin-bottom: 50px;
     background-color: #aaf167;
     cursor: pointer;
 }
-
+.footer{
+    background-color: var(--mainColor);
+    padding: 20px;
+    text-align: center;
+    
+}
+.social-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.social-icon a{
+    margin: 0 10px;
+}
+.list li{
+display: inline-block;
+padding: 0 10px;
+}
+.fa-youtube{
+    color: rgb(240, 16, 16);
+    transition: .3s;
+}
+.fa-github{
+    color: rgb(24, 1, 1);
+    transition: .3s;
+}
+.fa-facebook{
+    color: rgb(65, 122, 245);
+    transition: .3s;
+}
+.fa-linkedin{
+    transition: .3s;   
+}
+.fa-youtube:hover,.fa-github:hover,.fa-facebook:hover,.fa-linkedin:hover{
+    transform: scale(1.20);
+   
+}
 @media screen and (max-width:1200px){
     .main-container{
         width: 95%;
