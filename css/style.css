@@ -130,6 +130,11 @@ display: inline-block;
 margin-right: 5px;
 margin-left: 5px;
 }
+#navigation a:hover{
+color: #04cceb;
+font-weight: 600;
+
+}
 .left-colum{
     grid-area: left-colum;
     padding-top: 50px;
