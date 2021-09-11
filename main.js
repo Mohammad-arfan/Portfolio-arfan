@@ -32,3 +32,12 @@ function setTheme(mode){
     }
     localStorage.setItem('theme', mode)
 }
+function salutation(nom){
+    alert("Bonjour " + nom);
+}
+// salutation(" Mun i love You!!!")
+function donneeVisiteur(callBack){
+    let nom = prompt("Enter you Name");
+    callBack(nom);
+}
+donneeVisiteur(salutation);
