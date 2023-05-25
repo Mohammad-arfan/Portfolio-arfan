@@ -369,13 +369,15 @@ margin-bottom: 50px;
 }
 .fa-facebook{
     color: rgb(65, 122, 245);
-    transition: .3s;
+   transition: all 0.3s linear;
+    
 }
 .fa-linkedin{
-    transition: .3s;   
+     transform: scale(1);
+    transition: .3s ease-in-out;   
 }
 .fa-youtube:hover,.fa-github:hover,.fa-facebook:hover,.fa-linkedin:hover{
-    transform: scale(1.20);
+    transform: scale(1.40);
    
 }
 @media screen and (max-width:1200px){

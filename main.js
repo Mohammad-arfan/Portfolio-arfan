@@ -32,3 +32,20 @@ function setTheme(mode){
     }
     localStorage.setItem('theme', mode)
 }
+
+// class Episode {
+//     constructor(title, duration, hasBeenWatched){
+//         this.title = title;
+//         this.duration = duration;
+//         this.hasBeenWatched = hasBeenWatched;
+
+//     }
+// }
+// let firstEpisode = new Episode('the story of my life',350, true);
+// let secondEpisode = new Episode('the story of our life',350, false);
+// let thirdEpisode = new Episode('the story of happy life',350, false);
+// console.log(firstEpisode);
+// console.log(secondEpisode);
+// console.log(thirdEpisode);
+let guests = ['sarah' , 'alfie', 'steve'];
+console.log(guests[2]);
