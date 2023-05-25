@@ -32,6 +32,7 @@ function setTheme(mode){
     }
     localStorage.setItem('theme', mode)
 }
+<<<<<<< HEAD
 
 // class Episode {
 //     constructor(title, duration, hasBeenWatched){
@@ -49,3 +50,14 @@ function setTheme(mode){
 // console.log(thirdEpisode);
 let guests = ['sarah' , 'alfie', 'steve'];
 console.log(guests[2]);
+=======
+function salutation(nom){
+    alert("Bonjour " + nom);
+}
+// salutation(" Mun i love You!!!")
+function donneeVisiteur(callBack){
+    let nom = prompt("Enter you Name");
+    callBack(nom);
+}
+donneeVisiteur(salutation);
+>>>>>>> a95c54038a30e0fd7b5b7f6ee8b55f07609f0bc9
