@@ -32,32 +32,4 @@ function setTheme(mode){
     }
     localStorage.setItem('theme', mode)
 }
-<<<<<<< HEAD
 
-// class Episode {
-//     constructor(title, duration, hasBeenWatched){
-//         this.title = title;
-//         this.duration = duration;
-//         this.hasBeenWatched = hasBeenWatched;
-
-//     }
-// }
-// let firstEpisode = new Episode('the story of my life',350, true);
-// let secondEpisode = new Episode('the story of our life',350, false);
-// let thirdEpisode = new Episode('the story of happy life',350, false);
-// console.log(firstEpisode);
-// console.log(secondEpisode);
-// console.log(thirdEpisode);
-let guests = ['sarah' , 'alfie', 'steve'];
-console.log(guests[2]);
-=======
-function salutation(nom){
-    alert("Bonjour " + nom);
-}
-// salutation(" Mun i love You!!!")
-function donneeVisiteur(callBack){
-    let nom = prompt("Enter you Name");
-    callBack(nom);
-}
-donneeVisiteur(salutation);
->>>>>>> a95c54038a30e0fd7b5b7f6ee8b55f07609f0bc9
